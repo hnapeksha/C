@@ -9,7 +9,7 @@ int biggest3()
 	printf("Enter the numbers A, B and C: ");
 	scanf("%d %d %d", &A, &B, &C);
 
-	// finding max using compound expressions
+	// finding max using 
 	if (A >= B && A >= C)
 		printf("%d is the largest number.", A);
 
