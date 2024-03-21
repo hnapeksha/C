@@ -4,20 +4,20 @@
 
 int biggest3()
 {
-	int A, B, C;
+	int A, B, c;
 
-	printf("Enter the numbers A, B and C: ");
-	scanf("%d %d %d", &A, &B, &C);
+	printf("Enter the numbers A, B and c: ");
+	scanf("%d %d %d", &A, &B, &c);
 
 	// finding max using 
-	if (A >= B && A >= C)
+	if (A >= B && A >= c)
 		printf("%d is the largest number.", A);
 
-	else if (B >= A && B >= C)
+	else if (B >= A && B >= c)
 		printf("%d is the largest number.", B);
 
 	else
-		printf("%d is the largest number.", C);
+		printf("%d is the largest number.", c);
 
 	//return 0;
 }
